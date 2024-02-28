@@ -1,0 +1,4 @@
+module background
+
+id = "background"
+paint { background_color = "#fff" }

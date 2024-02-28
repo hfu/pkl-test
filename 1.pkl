@@ -1,0 +1,11 @@
+// my first attempt to generate style.json from a pkl file.
+
+version = 8
+center { -122.42 37.80 }
+zoom = 10.42
+sources = import("sources.pkl")
+sprite = "https://tile.openstreetmap.jp/styles/maptiler-toner-en/sprite"
+glyphs = "https://tile.openstreetmap.jp/fonts/{fontstack}/{range}.pbf"
+layers = new Listing {
+    import("background.pkl")
+}
