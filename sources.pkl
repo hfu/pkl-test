@@ -2,5 +2,7 @@ module sources
 
 openmaptiles {
     type = "vector"
-    url = "https://tile.openstreetmap.jp/data/planet.json"
+    tiles = new Listing {
+        "https://tile.openstreetmap.jp/data/planet/{z}/{x}/{y}.pbf"
+    }
 }

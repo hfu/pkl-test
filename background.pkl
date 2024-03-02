@@ -1,4 +1,5 @@
-module background
-
 id = "background"
-paint { background_color = "#fff" }
+type = "background"
+paint {
+    `background-color` = new Listing { "rgb" 255 255 255 }
+}

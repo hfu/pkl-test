@@ -1,0 +1,4 @@
+open module fill
+
+type = "fill"
+source = "openmaptiles"

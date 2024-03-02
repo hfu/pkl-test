@@ -1,0 +1,7 @@
+extends "fill.pkl"
+
+id = "water"
+`source-layer` = "water"
+paint {
+    `fill-color` = new Listing { "rgb" 194 200 202 }
+}
